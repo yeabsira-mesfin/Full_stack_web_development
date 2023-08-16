@@ -1,0 +1,21 @@
+/* Element Selector */
+body{
+    background-color: #cc99ff;
+}
+h1{
+    color: red;
+    text-align: center;
+}
+/* Class Selector */
+.classSelector{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: auto; /*Puts equal spacing in each side of the element */
+
+}
+/* ID Selector */
+#IdSelector{
+    color: darkred;
+    font-size: 40px;
+}
