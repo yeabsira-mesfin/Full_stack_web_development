@@ -1,0 +1,15 @@
+body{
+    /* We have multiple background properties */
+    background-image: url('image/Zebra.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;    /* this only works for background image */
+
+}
+.container h1{
+    color: white;
+    text-shadow: 2px 2px 3px yellow;
+}
+.borderImg{
+    border: 2px dashed green;
+}
+
