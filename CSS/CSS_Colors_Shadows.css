@@ -1,0 +1,32 @@
+/* differnt kinds of using color */
+.container{
+    /* using the actural color name */
+    background-color: violet;
+   
+}
+h1{
+    /* using Hexa code */
+    color: #fff;
+}
+h2{
+    /* using rgb */
+    color: rgb(0, 204, 205);
+}
+/* Differnt kinds of gradient */
+.lineargradient {
+    /* the first emelent is the direction you can make it right, left, top and bottom */
+    background: linear-gradient(to right, yellow,green);
+}
+/* Shadow */
+.lineargradient h1{
+    /* the first element is for horizontal, the second for vertical and the third for color */
+    text-shadow: 2px 3px black;
+}
+.lineargradient h2{
+    /* the first element is for horizontal, the second for vertical, the third for bluring and the fourth for the color */
+    text-shadow: 1px 1px 3px darkblue;
+}
+.lineargradient{
+    /* we can use box-shadow property to our divs */
+    box-shadow: 3px 2px 4px black;
+}
