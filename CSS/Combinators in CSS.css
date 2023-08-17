@@ -1,0 +1,9 @@
+/* descendant selector */
+ul li{
+    color:green;
+    font-size: large;
+}
+/* Child selector */
+ul > li {
+    color: red;
+}
