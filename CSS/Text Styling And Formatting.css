@@ -1,0 +1,29 @@
+/* Font families */
+html{
+    font-family: "Times New Roman",cursive,sans-serif;
+}
+body{
+    background-color: #444;
+    text-align: center;
+}
+h1,h2,h3{
+    color: #fff;
+    font-style: italic;
+}
+h2{
+    font-size: 3em;
+    font-style:normal;
+    color: rgb(0, 128, 0);
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: yellow;
+    word-spacing: 5px;
+    text-transform: uppercase;
+}
+.formatting{
+    font-size: 25px;
+    line-height: 2em;
+    color: white;
+}
