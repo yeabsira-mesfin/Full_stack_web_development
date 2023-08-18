@@ -1,3 +1,4 @@
+/* Responsive Image */
 img{
     max-width: 100%;
     height: auto;
@@ -5,7 +6,6 @@ img{
     display: block;
     margin: auto;
 }
-
 .borderImg{
     border-radius: 10px;
     width: 500px;
