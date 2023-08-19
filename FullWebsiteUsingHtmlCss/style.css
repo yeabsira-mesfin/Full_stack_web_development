@@ -39,3 +39,12 @@ ul.topnav li a:hover{
     background-color: #0080ff;
     color: white;
 }
+/* Responsive Nav */
+.topnav .dropdownIcon{
+    display: none;
+}
+@media screen and (max-width:720px) {
+    .topnav li:not(:nth-child(1)){
+        display: none;
+    }
+}
