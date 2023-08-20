@@ -69,7 +69,9 @@
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
-
+*{
+    box-sizing: border-box;
+}
 h1.large{
     color: white;
     font-size: 55px;
@@ -130,7 +132,11 @@ form h2 {
             display: block;
             text-align: left; 
         }
-        .col-6{
+        div.box{
+            padding: 5px;
+            display: block;
+        }
+        .col-6,.col-4{
             width: 100%;
         }
         .bannerRight{
@@ -148,15 +154,19 @@ form h2 {
             margin: 0;
             overflow: hidden;
         }
+        .section2Header{
+            font-size: 41px;
+        }
+
     }
 
-    /*  Banner */
-    .container{
-        width: 100%;
-        margin: auto;
-        padding-top: 4%;
-        padding-bottom: 4%;
-    }
+/*  Banner */
+.container{
+    width: 100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
 #section-1-gradient{
     background: -webkit-linear-gradient(top, yellow, green);
 
@@ -168,3 +178,35 @@ form h2 {
     margin-left: 10%;
 }
 /* Images to be displayed */
+div.box{
+    background-color: white;
+    margin: 24px;
+    border-radius: 7px;
+    padding: 36px 24px 40px 24px;
+    border: 2px solid Green;
+    box-shadow: 10 0 0 1px rgba(green, yellow, green, 0.15),
+    0 2px 3px 0 rgba(yellow, green, blue, .1);
+    text-align: center;
+}
+div.icon{
+    width: 100%;
+}
+label{
+    font-size: 35px;
+    font-weight:600;
+}
+p{
+    font-size: 19px;
+    line-height: 1.2;
+}
+.learMore{
+    font-size: 31px;
+    font-weight: 900;
+    color: white;
+    background-color: green;
+    border-radius: 7px;
+    padding: 15px 60px;
+    border: none;
+    display: block;
+    margin: auto;
+}
