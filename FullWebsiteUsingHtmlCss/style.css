@@ -139,6 +139,10 @@ form h2 {
         .col-6,.col-4,.col-5,.col-7{
             width: 100%;
         }
+        .mobilestack{
+            width: 50%;
+            display: block;
+        }
         .bannerRight{
             margin-top: 10%;
         }
@@ -226,4 +230,23 @@ article p{
 .mobile img{
     padding: 20px;
     width: 100%;
+}
+/* Footer */
+.footer{
+    background: -webkit-linear-gradient(top, yellow, green);
+    padding-left: 10%;
+}
+.footer h1{
+    color: white;
+    text-align: left;
+}
+.footer ul{
+    list-style:none;
+    text-align: left;
+    padding-left: 0;
+}
+.footer li{
+    color: white;
+    font-size: 22px;
+    line-height: 1.5;
 }
