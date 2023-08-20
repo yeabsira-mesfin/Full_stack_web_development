@@ -75,7 +75,10 @@ h1.large{
     font-size: 55px;
     margin: 0;
     line-height: 60px;
-
+}
+.section2Header{
+    font-size: 65px;
+    text-align: center;
 }
 input[type="text"]{
     font-size: 20px;
@@ -164,3 +167,4 @@ form h2 {
 .bannerRight{
     margin-left: 10%;
 }
+/* Images to be displayed */
