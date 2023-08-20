@@ -92,9 +92,6 @@ input[type="password"]{
 form h2 {
     color: white;
 }
-.bannerleft{
-    margin-left: 10%;
-}
     /* Responsive Nav */
 
     .topnav .dropdownIcon {
@@ -130,6 +127,24 @@ form h2 {
             display: block;
             text-align: left; 
         }
+        .col-6{
+            width: 100%;
+        }
+        .bannerRight{
+            margin-top: 10%;
+        }
+        input[type="text"]{
+            width: 200px;
+        }
+        input[type="password"]{
+            width: 200px;
+        }
+        .videoContainer iframe{
+            position: relative;
+            width: 100%;
+            margin: 0;
+            overflow: hidden;
+        }
     }
 
     /*  Banner */
@@ -143,4 +158,9 @@ form h2 {
     background: -webkit-linear-gradient(top, yellow, green);
 
 }
- 
+.bannerleft{
+    margin-left: 10%;
+}
+.bannerRight{
+    margin-left: 10%;
+}
