@@ -136,7 +136,7 @@ form h2 {
             padding: 5px;
             display: block;
         }
-        .col-6,.col-4{
+        .col-6,.col-4,.col-5,.col-7{
             width: 100%;
         }
         .bannerRight{
@@ -209,4 +209,21 @@ p{
     border: none;
     display: block;
     margin: auto;
+}
+/* Text and image side by side */
+article p{
+    font-size: 28px;
+    padding: 20px;
+}
+.mobile{
+    display: block;
+    margin: auto;
+    box-shadow: -2px  -2px 5px 2px rgb(0, 0, 0, .15),
+    2px 2px 3px 2px;
+    border-radius: 7px;
+
+}
+.mobile img{
+    padding: 20px;
+    width: 100%;
 }
