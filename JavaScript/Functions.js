@@ -36,4 +36,4 @@ makeTransaction(600)
 let printCustomer = function(firstName,lastName,id){
     console.log('Your first name is ' + firstName + "\n" + "your last name is \n" + lastName + " and your ID is " + id);
 }
-console.log(printCustomer('Yeabsira','Mesfin','029'))
+console.log(printCustomer('Yeabsira','Mesfin','029'));
