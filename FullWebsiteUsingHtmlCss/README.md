@@ -1,0 +1,1 @@
+# This is a full responsive website using HTML CSS and little JavaScript.
