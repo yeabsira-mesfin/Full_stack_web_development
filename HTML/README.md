@@ -1,0 +1,1 @@
+# HTML is like a the structure to your website.

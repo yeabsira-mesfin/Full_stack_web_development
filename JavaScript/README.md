@@ -1,0 +1,1 @@
+# JavaScript is the functinality to your site, just like an elevator for a building.

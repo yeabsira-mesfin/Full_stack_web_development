@@ -1,0 +1,1 @@
+# CSS is like a paint to your house.
