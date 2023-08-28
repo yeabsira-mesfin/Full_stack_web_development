@@ -1,0 +1,17 @@
+*{
+    color: white;
+    text-align: center;
+}
+.container-fluid{
+    background-color: green;
+    height:8.5rem;
+}
+.row{
+    background-color: yellow;
+    height: 3rem; 
+}
+[class*=col-]{
+    background-color: rgb(150, 12, 12);
+    height: 1.5rem;
+    border: 2px solid blue;
+}
