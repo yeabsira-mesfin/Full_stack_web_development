@@ -1,0 +1,15 @@
+.signInBody{
+    background-color: rgb(20, 63, 20);
+}
+.signin-container{
+    display: block;
+    margin-top: 8%;
+}
+.signin-card{
+    padding: 40px 0px 20px;
+    background-color: rgb(190, 190, 43);
+    color: white;
+    box-shadow: 2px 2px 5px aqua;
+    -webkit-box-shadow:2px 2px 5px aqua;
+    -moz-box-shadow:2px 2px 5px aqua;
+}
