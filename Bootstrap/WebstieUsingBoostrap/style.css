@@ -1,20 +1,24 @@
 /* Banner  */
-.container-fluid {
-    background: yellow !important;
-    text-align: center;
-    color: black;
-}
-.container-fluid.bg-light h1{
+.sectionLight.banner {
     text-align: center;
 }
-.sectionLight{
-    background-color: black;
+.sectionLight .row{
+    background-color: black ;
 }
-.carousel-control-prev-icon .white{
-    color: yellow !important;
-    background-color: yellow;
+/* Third section */
+.sectionDark{
+    padding: 2rem;
 }
-.carousel-control-prev-icon .white:hover{
-    color: yellow !important;
-    background-color: yellow;
+ .wrapper{
+   margin: 20px;
+} 
+.wrapper button{
+    width: 200px;
+    height: 50px;
+    color: white;
+    display: block;
+    margin: auto;
+}
+.wrapper button:hover{
+   color: white;
 }
