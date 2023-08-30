@@ -1,0 +1,20 @@
+/* Banner  */
+.container-fluid {
+    background: yellow !important;
+    text-align: center;
+    color: black;
+}
+.container-fluid.bg-light h1{
+    text-align: center;
+}
+.sectionLight{
+    background-color: black;
+}
+.carousel-control-prev-icon .white{
+    color: yellow !important;
+    background-color: yellow;
+}
+.carousel-control-prev-icon .white:hover{
+    color: yellow !important;
+    background-color: yellow;
+}
