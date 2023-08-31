@@ -34,3 +34,30 @@
 .buttonImage button{
     width: 100%;
 }
+.footer{
+    background-color: black;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa {
+    padding: 30px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: yellow;
+  }
+.fa:hover {
+    color: rgb(158, 158, 54);
+  }
+  @media screen and (min-width:800px) {
+    #icon{
+        display: block;
+        margin: auto;
+      }
+    
+  }
+ 
