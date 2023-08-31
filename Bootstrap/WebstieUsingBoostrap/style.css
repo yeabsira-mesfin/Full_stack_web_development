@@ -22,3 +22,15 @@
 .wrapper button:hover{
    color: white;
 }
+.imgModal{
+  padding: 1rem;  
+}
+.imageButton{
+    width: 90%;
+}
+.buttonImage{
+    padding:1rem 0 1rem 0;
+}
+.buttonImage button{
+    width: 100%;
+}
