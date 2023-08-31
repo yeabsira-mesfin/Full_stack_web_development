@@ -5,9 +5,16 @@
 .sectionLight .row{
     background-color: black ;
 }
+.light{
+    background-color: white;
+    width: 100%;
+}
 /* Third section */
 .sectionDark{
     padding: 2rem;
+}
+.sectionDark p{
+    padding-top: 10px;
 }
  .wrapper{
    margin: 20px;
@@ -44,7 +51,7 @@
 }
 .fa {
     padding: 30px;
-    font-size: 30px;
+    font-size: 50px;
     width: 50px;
     text-align: center;
     text-decoration: none;
@@ -60,4 +67,5 @@
       }
     
   }
+
  
