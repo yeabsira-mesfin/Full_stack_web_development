@@ -50,11 +50,8 @@ section {
   cursor: pointer;
   display: block;
   margin: auto;
-}
-.btn-1:hover {
   background: #29379e;
 }
-
 .btn-2 {
   padding: 10px;
   border-radius: 10%;
@@ -65,10 +62,8 @@ section {
   cursor: pointer;
   display: block;
   margin: auto;
-  font-size: 20px;
-}
-.btn-2:hover {
   background: #29379e;
+  font-size: 20px;
 }
 .btn-2:hover {
   background-color: #b93b00;
