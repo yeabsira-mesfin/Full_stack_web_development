@@ -1,6 +1,11 @@
 body {
-  width: 100%;
-  padding: 40px 50px;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: lightgrey;
+  font-family: Gerogia, Times, serif;
 }
 
 #footer {
@@ -15,7 +20,7 @@ body {
 
 .btn-larg {
   padding: 30px;
-  background-color: green;
+  background-color: blue;
   color: white;
 }
 
@@ -28,6 +33,4 @@ btn-small {
 .main-nav {
   background-color: grey;
   border: 1px solid black;
-}
-
-/*# sourceMappingURL=app.css.map */
+}/*# sourceMappingURL=app.css.map */

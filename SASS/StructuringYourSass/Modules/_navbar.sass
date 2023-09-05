@@ -1,4 +1,17 @@
-.main-nav
-    background-color: grey
-    border: 1px solid black
-    
+#main-nav
+    background-color: $brand-sub
+    width: 100%
+    padding: 10px 0
+    ul
+        margin: 0
+        padding: 20px 0
+        list-style: none
+        li
+            float: left
+            margin-left: 30px
+            a
+                text-decoration: none
+                font-size: 22px
+                color: $brand-light
+                &:hover
+                    color: lighten($brand-light, 20%)
