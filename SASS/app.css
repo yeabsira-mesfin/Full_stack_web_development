@@ -25,10 +25,12 @@ h1 {
 h1 {
   margin: 0;
   padding: 10px 0;
+  color: #fff;
 }
 
 #main-content {
   width: 100%;
+  height: 500px;
   padding: 20px 30px;
   box-sizing: border-box;
   display: block;
@@ -68,4 +70,18 @@ h1 {
 }
 #main-nav ul li a:hover {
   color: #6b74b9;
+}
+
+.pro-img {
+  background-color: #3d4581;
+  width: 22%;
+  height: 100px;
+  display: inline-block;
+  float: left;
+  margin: 15px;
+  -noz-border-radius: 30px;
+  border-radius: 30px;
+  -noz-box-shadow: 0 0 15px #FF6720;
+  box-shadow: 0 0 15px #FF6720;
+  border: 1px solid #141B4D;
 }/*# sourceMappingURL=app.css.map */
