@@ -1,0 +1,14 @@
+
+// Calculate the width for each column
+.row
+    display: flex
+    width: 100%
+    margin: 0 auto
+    display: flex
+    flex-wrap: wrap
+    
+@for $i from 1 through $total-columns 
+  .col-#{$i} 
+    width: percentage($i / $total-columns)
+
+  
