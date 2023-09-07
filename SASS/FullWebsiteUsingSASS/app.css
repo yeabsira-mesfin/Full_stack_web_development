@@ -1,3 +1,9 @@
+body {
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
 .row {
   display: flex;
   width: 100%;
@@ -62,6 +68,12 @@
   display: block;
 }
 
+.banner-container {
+  padding: 40px 0;
+  background-color: #000;
+  color: #fff;
+}
+
 .nav-header {
   padding: 0 0 10px;
   background-color: #fff;
@@ -90,7 +102,7 @@
   vertical-align: top;
 }
 .nav-menu .nav-menu-list .nav-items .nav-a {
-  display: block;
+  display: inline;
   padding: 10px 10px;
   text-decoration: none;
   color: #000;
