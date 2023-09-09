@@ -111,4 +111,10 @@ body {
 }
 .nav-menu .nav-menu-list .nav-items .nav-a:hover {
   color: green;
+}
+
+@media screen and (max-width: 680px) {
+  .nav-a {
+    font-size: 10px;
+  }
 }/*# sourceMappingURL=app.css.map */
