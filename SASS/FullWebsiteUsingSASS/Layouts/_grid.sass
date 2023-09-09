@@ -11,4 +11,11 @@
   .col-#{$i} 
     width: percentage($i / $total-columns)
 
-  
+@media screen and (max-width:680px)
+  @for $i from 1 through $total-columns
+   .col-#{$i} 
+    width: 100%
+@media screen and (max-width: 980px)
+  @for $i from 1 through $total-columns
+   .col-#{$i} 
+    width: 100%

@@ -4,6 +4,19 @@ body {
   line-height: 20px;
 }
 
+h1 {
+  padding: 0 30px;
+  color: #FF6720;
+}
+
+p {
+  padding: 0 30px;
+}
+
+.p-video {
+  padding: 0;
+}
+
 .row {
   display: flex;
   width: 100%;
@@ -60,6 +73,82 @@ body {
   width: 100%;
 }
 
+@media screen and (max-width: 680px) {
+  .col-1 {
+    width: 100%;
+  }
+  .col-2 {
+    width: 100%;
+  }
+  .col-3 {
+    width: 100%;
+  }
+  .col-4 {
+    width: 100%;
+  }
+  .col-5 {
+    width: 100%;
+  }
+  .col-6 {
+    width: 100%;
+  }
+  .col-7 {
+    width: 100%;
+  }
+  .col-8 {
+    width: 100%;
+  }
+  .col-9 {
+    width: 100%;
+  }
+  .col-10 {
+    width: 100%;
+  }
+  .col-11 {
+    width: 100%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 980px) {
+  .col-1 {
+    width: 100%;
+  }
+  .col-2 {
+    width: 100%;
+  }
+  .col-3 {
+    width: 100%;
+  }
+  .col-4 {
+    width: 100%;
+  }
+  .col-5 {
+    width: 100%;
+  }
+  .col-6 {
+    width: 100%;
+  }
+  .col-7 {
+    width: 100%;
+  }
+  .col-8 {
+    width: 100%;
+  }
+  .col-9 {
+    width: 100%;
+  }
+  .col-10 {
+    width: 100%;
+  }
+  .col-11 {
+    width: 100%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
 .container {
   padding-left: 15px;
   padding-right: 15px;
@@ -72,6 +161,29 @@ body {
   padding: 40px 0;
   background-color: #000;
   color: #fff;
+}
+
+.btn-learn {
+  width: 100px;
+  color: #FF6720;
+  padding-top: 8px;
+  padding-left: 10px;
+  padding-bottom: 8px;
+  padding-right: 10px;
+  line-height: 20px;
+  transition: all, 0.4s ease-in-out;
+  margin: 0 30px;
+}
+
+.btn-video {
+  width: 100px;
+  color: #FF6720;
+  padding-top: 8px;
+  padding-left: 10px;
+  padding-bottom: 8px;
+  padding-right: 10px;
+  line-height: 20px;
+  transition: all, 0.4s ease-in-out;
 }
 
 .nav-header {
@@ -114,7 +226,18 @@ body {
 }
 
 @media screen and (max-width: 680px) {
-  .nav-a {
+  .nav-menu {
+    float: left;
     font-size: 10px;
   }
+}
+.img {
+  padding: 10px;
+  height: 450px;
+  width: 300px;
+  box-shadow: 0 0 15px #FF6720;
+  margin: 20px;
+}
+.img:hover {
+  background: #b93b00;
 }/*# sourceMappingURL=app.css.map */
