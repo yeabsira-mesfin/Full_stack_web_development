@@ -7,10 +7,12 @@ body {
 h1 {
   padding: 0 30px;
   color: #FF6720;
+  font-size: 35px;
 }
 
 p {
   padding: 0 30px;
+  color: #fff;
 }
 
 .p-video {
@@ -112,40 +114,13 @@ p {
   }
 }
 @media screen and (max-width: 980px) {
-  .col-1 {
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-12 {
     width: 100%;
   }
   .col-2 {
-    width: 100%;
-  }
-  .col-3 {
-    width: 100%;
-  }
-  .col-4 {
-    width: 100%;
-  }
-  .col-5 {
-    width: 100%;
-  }
-  .col-6 {
-    width: 100%;
-  }
-  .col-7 {
-    width: 100%;
-  }
-  .col-8 {
-    width: 100%;
-  }
-  .col-9 {
-    width: 100%;
-  }
-  .col-10 {
-    width: 100%;
-  }
-  .col-11 {
-    width: 100%;
-  }
-  .col-12 {
     width: 100%;
   }
 }
@@ -163,6 +138,14 @@ p {
   color: #fff;
 }
 
+.threeimg {
+  background-color: #FF6720;
+}
+
+.sideimage {
+  background-color: #000;
+}
+
 .btn-learn {
   width: 100px;
   color: #FF6720;
@@ -176,14 +159,22 @@ p {
 }
 
 .btn-video {
-  width: 100px;
-  color: #FF6720;
+  width: 150px;
+  color: #fff;
+  background: #FF6720;
+  border-color: #FF6720;
+  border-style: none;
+  border-radius: 40px;
   padding-top: 8px;
   padding-left: 10px;
   padding-bottom: 8px;
   padding-right: 10px;
   line-height: 20px;
   transition: all, 0.4s ease-in-out;
+}
+
+.btn-video.btn-video {
+  margin: 0 30px;
 }
 
 .nav-header {
@@ -204,7 +195,7 @@ p {
   margin: 5px 0 0;
 }
 .nav-menu .nav-menu-list {
-  font-size: 20px;
+  font-size: 35px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -236,8 +227,19 @@ p {
   height: 450px;
   width: 300px;
   box-shadow: 0 0 15px #FF6720;
-  margin: 20px;
+  margin: 30px;
 }
 .img:hover {
   background: #b93b00;
+}
+
+.col-4.imagesrow {
+  display: flex;
+  justify-content: center;
+  margin: 4px 0;
+  height: 100px;
+}
+
+.col-2.sideimage img {
+  margin: 10px 30px;
 }/*# sourceMappingURL=app.css.map */
