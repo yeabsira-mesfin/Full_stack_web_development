@@ -19,6 +19,19 @@ p {
   padding: 0;
 }
 
+footer {
+  background-color: #FF6720;
+}
+footer .foot-a {
+  display: inline-block;
+  padding: 30px;
+  text-decoration: none;
+  color: #fff;
+}
+footer .foot-a:hover {
+  color: #000;
+}
+
 .row {
   display: flex;
   width: 100%;
@@ -174,7 +187,7 @@ p {
 }
 
 .btn-video.btn-video {
-  margin: 0 30px;
+  margin: 0 30px 30px;
 }
 
 .nav-header {
