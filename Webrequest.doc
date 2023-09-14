@@ -1,0 +1,8 @@
+Understanding web request.
+Hyper text transfer protocol (HTTP)
+Our pc/mobile will send a request(GET) to the server and the server will send back a response (Headers
+and body or simply the HTML) in JSON/XML form.
+The post request is different from the GER request mainly for one reason, that is 
+the post request post something new to the server( for example if a user finishes a certain type of course or step.)
+PUT request is where you modify existing data ( for example a user changed their login details.)
+Delete request is when you remove a record. 
