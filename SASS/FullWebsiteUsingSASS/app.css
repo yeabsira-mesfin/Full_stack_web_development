@@ -2,6 +2,7 @@ body {
   font-family: "Roboto Slab", serif;
   font-size: 16px;
   line-height: 20px;
+  margin: 0;
 }
 
 h1 {
@@ -190,49 +191,70 @@ footer .foot-a:hover {
   margin: 0 30px 30px;
 }
 
-.nav-header {
-  padding: 0 0 10px;
-  background-color: #fff;
-}
-.nav-header .container {
-  padding: 10px 15px 0;
-  margin-right: auto;
-  margin-left: auto;
-}
-.nav-header img {
-  margin: auto;
+/* Nav Bar */
+nav {
+  width: 100%;
+  margin: 0;
 }
 
-.nav-menu {
-  float: right;
-  margin: 5px 0 0;
-}
-.nav-menu .nav-menu-list {
-  font-size: 35px;
+nav ul {
+  background-color: #FF6720;
+  overflow: hidden;
   margin: 0;
   padding: 0;
+}
+
+.topnav li {
   list-style: none;
+  float: left;
 }
-.nav-menu .nav-menu-list .nav-items {
-  display: inline-block;
-  vertical-align: top;
+
+ul.topnav li.topnav-right {
+  float: right;
 }
-.nav-menu .nav-menu-list .nav-items .nav-a {
-  display: inline;
-  padding: 10px 10px;
+
+ul.topnav li a {
+  display: block;
   text-decoration: none;
-  color: #000;
-  border: 1px solid transparent;
+  min-height: 16px;
+  text-align: center;
+  padding: 14px;
   text-transform: uppercase;
+  color: #fff;
 }
-.nav-menu .nav-menu-list .nav-items .nav-a:hover {
-  color: green;
+
+ul.topnav li a:hover {
+  background-color: #000;
+  color: white;
+}
+
+.dropdownIcon {
+  display: none;
 }
 
 @media screen and (max-width: 680px) {
-  .nav-menu {
-    float: left;
-    font-size: 10px;
+  .topnav li:not(:nth-child(1)) {
+    display: none;
+  }
+  ul.topnav .dropdownIcon {
+    display: block;
+    float: right;
+  }
+  ul.topnav.responsive li.dropdownIcon {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  ul.topnav.responsive {
+    position: relative;
+  }
+  ul.topnav.responsive li {
+    display: block;
+    float: none;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
   }
 }
 .img {
