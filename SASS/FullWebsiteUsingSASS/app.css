@@ -204,6 +204,10 @@ nav ul {
   padding: 0;
 }
 
+.topnav {
+  padding-left: 700px;
+}
+
 .topnav li {
   list-style: none;
   float: left;
@@ -218,7 +222,7 @@ ul.topnav li a {
   text-decoration: none;
   min-height: 16px;
   text-align: center;
-  padding: 14px;
+  padding: 24px;
   text-transform: uppercase;
   color: #fff;
 }
@@ -256,6 +260,9 @@ ul.topnav li a:hover {
     display: block;
     text-align: left;
   }
+  .topnav {
+    padding-left: 1px;
+  }
 }
 .img {
   padding: 10px;
@@ -277,4 +284,9 @@ ul.topnav li a:hover {
 
 .col-2.sideimage img {
   margin: 10px 30px;
+}
+
+.topnav img {
+  height: 40px;
+  border-radius: 30px;
 }/*# sourceMappingURL=app.css.map */
