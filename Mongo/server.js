@@ -32,6 +32,46 @@ app.get('/product',(request,response)=>{
     }
     });
 })
+app.get('/wishlist', (req, res) => {
+    WishList.find({}).populate({path:'products', model: 'Products'}).exec((err,wishList)=>{
+       if(err){
+        res.status(500).send({error: "Could not fetch whishlist"})
+       } else{
+        res.status(200).send(wishList)
+       }
+    })
+});
+
+app.post('/wishlist', (req, res) => {
+    const newWishList = new WishList({
+        title: req.body.title
+    });
+
+    newWishList.save((err, newWishList) => {
+        if (err) {
+            res.status(500).send({ error: "Could not create wishlist" });
+        } else {
+            res.send(newWishList);
+        }
+    });
+});
+
+app.put('/wishlist/prodcut/add',(req,res)=>{
+    Product.findOne({_id: req.body.produtID}, (err,prodcut)=>{
+        if(err){
+            res.status(500).send({error:"Could not add item to wishlist"})
+        } else{
+            WishList.updateOne({_id: req.body.wishListID}, {$addToSet:{prdocuts: product._id}}, (err,wishlist)=>{
+                if(err){
+                    res.status(500).send({error:"Could not add item to wishlist"})
+                }
+                else{
+                    res.send('Successfully added to wishlist')
+                }
+            })
+        }
+    })
+})
 app.listen(3000, function () {
     console.log("Swag Shop API running on port 3000...")
 });
